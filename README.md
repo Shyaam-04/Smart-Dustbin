@@ -1,4 +1,4 @@
-# 🌌 SonicBin
+# 🌌 EchoBin
 
 ### **The Intelligent, Touchless Waste Management System**
 *Subtitle: Sound-Controlled Smart Dustbin using Arduino*
