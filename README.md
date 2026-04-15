@@ -10,7 +10,7 @@
 [![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 
 ## 📖 Overview
-**SonicBin** is a touchless, hygiene-focused waste management solution designed to eliminate physical contact with disposal units. While most smart bins rely on expensive proximity modules, SonicBin utilizes **acoustic trigger logic** to provide a low-cost, highly responsive interface.
+**EchoBin** is a touchless, hygiene-focused waste management solution designed to eliminate physical contact with disposal units. While most smart bins rely on expensive proximity modules, EchoBin utilizes **acoustic trigger logic** to provide a low-cost, highly responsive interface.
 
 Beyond simple automation, it features **Fill-Level Intelligence**—constantly monitoring internal capacity to prevent overflows and locking the system when it reaches a maximum threshold, ensuring a sanitary environment at all times.
 
@@ -70,7 +70,7 @@ The firmware is designed with **non-blocking logic** using `millis()` instead of
 * **Averaging Interval:** Fill level is recalculated every 3 seconds to optimize power and processing.
 * **Safety Thresholds:** Includes logic to serial-print alerts when capacity exceeds 75%.
 
-### Core Logic (`SonicBin.ino`)
+### Core Logic 
 ```cpp
 void loop() {
   static int lastSoundState = -1;
